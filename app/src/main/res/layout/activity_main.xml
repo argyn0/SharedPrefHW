@@ -16,6 +16,28 @@
       android:layout_height="wrap_content"
       android:hint="@string/username"/>
 
+  <EditText
+      android:id="@+id/editTextCity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Введите город"/>
+
+  <EditText
+      android:id="@+id/editTextAge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="text"
+      android:hint="Введите возраст"/>
+
+  <EditText
+      android:id="@+id/editTextBornDate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="text"
+      android:hint="Введите дату рождения"/>
+
   <Button
     android:id="@+id/buttonSaveData"
       android:layout_width="match_parent"
